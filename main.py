@@ -1,18 +1,6 @@
-# Queues in Python are Double Ended by default
-from collections import deque
+# List to set
+print(set([1, 2, 3]))
 
-queue = deque()
-
-queue.append(1)
-queue.append(2)
-queue.append(3)
-print(queue)
-
-queue.popleft()
-print(queue)
-
-queue.appendleft(1)
-print(queue)
-
-queue.pop()
-print(queue)
+# Set Comprehension
+mySet = {i for i in range(1, 5)}
+print(mySet)
