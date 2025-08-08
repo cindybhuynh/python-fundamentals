@@ -1,0 +1,32 @@
+# Python bytecode and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Sensitive information and logs
+.env
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Test and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
