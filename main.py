@@ -1,6 +1,11 @@
-# List to set
-print(set([1, 2, 3]))
+# Looping through maps
+myMap = {"alice": 90, "bob": 70}
 
-# Set Comprehension
-mySet = {i for i in range(1, 5)}
-print(mySet)
+for key in myMap:
+    print(key, myMap[key])
+
+for val in myMap.values():
+    print(val)
+
+for key, val in myMap.items():
+    print(key, val)
