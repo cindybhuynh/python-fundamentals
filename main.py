@@ -1,11 +1,8 @@
-# Looping through maps
-myMap = {"alice": 90, "bob": 70}
+# Heaps
+import heapq
 
-for key in myMap:
-    print(key, myMap[key])
-
-for val in myMap.values():
-    print(val)
-
-for key, val in myMap.items():
-    print(key, val)
+# Build heap from inital values in array
+arr = [1, 5, 2, 4, 19, 7]
+heapq.heapify(arr)
+while arr:
+    print(heapq.heappop(arr))
